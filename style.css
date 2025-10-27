@@ -353,6 +353,7 @@ header {
     box-shadow: 0 5px 24px rgba(0,255,136,0.10);
     transition: transform var(--transition), border var(--transition), box-shadow var(--transition);
     position: relative;
+    cursor: pointer;
 }
 .skill-category:hover, .project-card:hover, .article-card:hover, .contact-card:hover {
     transform: scale(1.05) translateY(-6px);
@@ -550,12 +551,56 @@ footer {
 section { opacity: 0; transform: translateY(30px); transition: opacity 1s cubic-bezier(0.15,0.39,0.75,0.85), transform 0.9s; }
 section.visible { opacity: 1; transform: translateY(0); }
 
-/* Responsive Enhancements */
-@media (max-width: 980px) {
+/* MODAL STYLES */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 10000;
+  background: rgba(18,24,58,.95);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.38s;
+  pointer-events: none;
+}
+.modal-overlay.active {
+  display: flex;
+  opacity: 1;
+  pointer-events: all;
+}
+.modal-content {
+  max-width: 720px;
+  background: var(--card-bg);
+  padding: 2.2rem;
+  border-radius: 18px;
+  border: var(--glass-border);
+  box-shadow: 0 14px 54px rgba(0,255,136,0.13);
+  position: relative;
+  color: var(--text-light);
+  max-height: 85vh;
+  overflow-y: auto;
+}
+.modal-close {
+  position: absolute;
+  top: 16px; right: 18px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  opacity: 0.83;
+  transition: color 0.2s;
+}
+.modal-close:hover {
+  color: var(--accent);
+}
+@media (max-width:980px) {
     .container { padding: 0 1rem;}
     .navbar { padding: 0.7rem 1rem;}
 }
-@media (max-width: 768px) {
+@media (max-width:768px) {
     .hamburger { display: flex;}
     .nav-links {
         position: fixed;
@@ -581,6 +626,7 @@ section.visible { opacity: 1; transform: translateY(0); }
     .btn { width: 100%; justify-content: center;}
     .about, .skills, .projects, .articles, .contact { padding: 3rem 0.6rem;}
     .skills-grid, .projects-grid, .articles-grid, .contact-grid { grid-template-columns: 1fr;}
+    .modal-content { max-width:97vw; padding: 1.4rem;}
 }
 @media (max-width: 560px) {
     .logo { font-size: 1.2rem;}
