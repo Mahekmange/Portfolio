@@ -1,355 +1,566 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahek Mange | Cybersecurity Professional</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mahek Mange | Cybersecurity Professional</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
 </head>
 <body>
-    <!-- Navigation -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <i class="fas fa-shield-alt"></i>
-                <span>Mahek<span class="highlight">.sec</span></span>
-            </div>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#articles">Articles</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </header>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fas fa-shield-alt"></i>
+        <span>Mahek<span class="highlight">.sec</span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="terminal-window">
-                <div class="terminal-header">
-                    <span class="dot red"></span>
-                    <span class="dot yellow"></span>
-                    <span class="dot green"></span>
-                </div>
-                <div class="terminal-body">
-                    <p><span class="prompt">mahek@cyberspace</span>:<span class="path">~</span>$ whoami</p>
-                    <p class="output">Cybersecurity Student & Ethical Hacker</p>
-                    <p><span class="prompt">mahek@cyberspace</span>:<span class="path">~</span>$ cat skills.txt</p>
-                    <p class="output typing-effect">Penetration Testing | Web Development | Digital Forensics</p>
-                    <p class="cursor">▊</p>
-                </div>
-            </div>
-            <h1>Hi, I'm <span class="highlight">Mahek Mange</span></h1>
-            <p class="subtitle">3rd Year Cybersecurity Engineering Student</p>
-            <p class="description">Securing digital spaces through ethical hacking, vulnerability research, and creative problem-solving</p>
-            <div class="cta-buttons">
-                <a href="#projects" class="btn btn-primary">
-                    <i class="fas fa-folder-open"></i> View Projects
-                </a>
-                <a href="#contact" class="btn btn-secondary">
-                    <i class="fas fa-envelope"></i> Get In Touch
-                </a>
-            </div>
-            <div class="social-links">
-                <a href="https://github.com/Mahekmange" target="_blank" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/mahek-mange" target="_blank" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </div>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
         </div>
-        <div class="hero-visual">
-            <div class="cyber-grid"></div>
+        <div class="terminal-body">
+          <p>
+            <span class="prompt">mahek@cyberspace</span>:<span class="path">~</span>$ whoami
+          </p>
+          <p class="output">Cybersecurity Student &amp; Ethical Hacker</p>
+          <p>
+            <span class="prompt">mahek@cyberspace</span>:<span class="path">~</span>$ cat skills.txt
+          </p>
+          <p class="output typing-effect">Penetration Testing | Web Development | Digital Forensics</p>
+          <p class="cursor">▊</p>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2><i class="fas fa-user-circle"></i> About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I'm a passionate cybersecurity enthusiast currently pursuing my degree in <strong>Cyber Security Engineering (3rd Year)</strong>. My journey in technology started with curiosity about how systems work, which evolved into a deep interest in understanding how to protect them.</p>
-                    <p>I specialize in <strong>penetration testing</strong>, <strong>web application security</strong>, and <strong>digital forensics</strong>. When I'm not hunting for vulnerabilities or solving CTF challenges, I'm building secure web applications and sharing knowledge through technical articles.</p>
-                    <p>My goal is to contribute to making the digital world safer by identifying security flaws before malicious actors can exploit them. I believe in continuous learning and staying updated with the latest security trends and attack vectors.</p>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <i class="fas fa-project-diagram"></i>
-                            <h3>10+</h3>
-                            <p>Projects Completed</p>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-flag"></i>
-                            <h3>50+</h3>
-                            <p>CTF Challenges</p>
-                        </div>
-                        <div class="stat-item">
-                            <i class="fas fa-code"></i>
-                            <h3>5+</h3>
-                            <p>Tools Developed</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2><i class="fas fa-tools"></i> Technical Arsenal</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <div class="category-icon">
-                        <i class="fas fa-bug"></i>
-                    </div>
-                    <h3>Offensive Security</h3>
-                    <ul>
-                        <li><span class="skill-name">Penetration Testing</span></li>
-                        <li><span class="skill-name">Web App Security</span></li>
-                        <li><span class="skill-name">Network Scanning</span></li>
-                        <li><span class="skill-name">Exploitation</span></li>
-                        <li><span class="skill-name">Social Engineering</span></li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <div class="category-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Defensive Security</h3>
-                    <ul>
-                        <li><span class="skill-name">Incident Response</span></li>
-                        <li><span class="skill-name">Threat Analysis</span></li>
-                        <li><span class="skill-name">SIEM Tools</span></li>
-                        <li><span class="skill-name">Malware Analysis</span></li>
-                        <li><span class="skill-name">Digital Forensics</span></li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <div class="category-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Development</h3>
-                    <ul>
-                        <li><span class="skill-name">Python</span></li>
-                        <li><span class="skill-name">JavaScript</span></li>
-                        <li><span class="skill-name">Flask/Django</span></li>
-                        <li><span class="skill-name">SQL</span></li>
-                        <li><span class="skill-name">Bash Scripting</span></li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <div class="category-icon">
-                        <i class="fas fa-wrench"></i>
-                    </div>
-                    <h3>Tools & Platforms</h3>
-                    <ul>
-                        <li><span class="skill-name">Burp Suite</span></li>
-                        <li><span class="skill-name">Metasploit</span></li>
-                        <li><span class="skill-name">Nmap</span></li>
-                        <li><span class="skill-name">Wireshark</span></li>
-                        <li><span class="skill-name">Kali Linux</span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2><i class="fas fa-laptop-code"></i> Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-qrcode"></i>
-                    </div>
-                    <h3>Smart Attendance System</h3>
-                    <p>A Flask-based web application enabling teachers to manage student attendance efficiently through unique QR codes. Features include real-time tracking, automated reports, and secure authentication.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Flask</span>
-                        <span class="tech-tag">SQL</span>
-                        <span class="tech-tag">QR Code</span>
-                        <span class="tech-tag">Python</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-flag"></i>
-                    </div>
-                    <h3>CyberQuest CTF Game</h3>
-                    <p>An interactive CTF platform that gamifies cybersecurity education. Players solve challenging puzzles covering exploitation, cryptography, and forensics.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">Docker</span>
-                        <span class="tech-tag">CTF</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                    <h3>Network Vulnerability Scanner</h3>
-                    <p>Automated Python tool for identifying common vulnerabilities in network infrastructure. Generates comprehensive reports with remediation recommendations.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">Nmap</span>
-                        <span class="tech-tag">Security</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <h3>Password Strength Analyzer</h3>
-                    <p>Advanced password tool using machine learning to assess password strength and provide security feedback.</p>
-                    <div class="tech-stack">
-                        <span class="tech-tag">Python</span>
-                        <span class="tech-tag">ML</span>
-                        <span class="tech-tag">Flask</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Articles Section -->
-    <section id="articles" class="articles">
-        <div class="container">
-            <h2><i class="fas fa-pen-nib"></i> Technical Writing</h2>
-            <div class="articles-grid">
-                <!-- Example: ETL Article Card (Add more using same structure, changing data-article and summary/title) -->
-                <article class="article-card" tabindex="0" data-article="etl">
-                    <div class="article-header">
-                        <i class="fas fa-database"></i>
-                        <span class="article-category">Data Engineering</span>
-                    </div>
-                    <h3>The ETL Process: A Deep Dive into Modern Data Integration</h3>
-                    <p>Discover how the ETL (Extract, Transform, Load) process transforms raw data into reliable, actionable analytics for modern businesses.</p>
-                    <div class="article-meta">
-                        <span><i class="far fa-calendar"></i> Oct 2025</span>
-                        <span><i class="far fa-clock"></i> 8 min read</span>
-                    </div>
-                    <a href="#" class="read-more" data-article="etl">Read Article <i class="fas fa-arrow-right"></i></a>
-                </article>
-                <!-- Add more article-card items here with new data-article values -->
-            </div>
-        </div>
-    </section>
-    <section id="dwm-videos" class="videos">
-        <div class="container">
-            <h2><i class="fas fa-video"></i> DWM Videos</h2>
-            <div class="videos-grid">
-                <!-- Video 1 -->
-                <div class="video-card">
-                    <div class="video-responsive">
-                        <iframe src="https://www.youtube.com/embed/GbxFKsj1Z0g?si=XVVm3U_afEx9zVr-" 
-                            title="DWM SLA2 PPT - ETL Process" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="video-info">
-                        <h3>DWM SLA2 PPT - ETL Process</h3>
-                        <a href="https://youtu.be/GbxFKsj1Z0g?si=XVVm3U_afEx9zVr-" target="_blank" class="video-link">
-                            Watch on YouTube <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-                </div>
-                <!-- Video 2 -->
-                <div class="video-card">
-                    <div class="video-responsive">
-                        <iframe src="https://www.youtube.com/embed/yGH6F6slrSU?si=pG_hFxZGFGCZbFk3"
-                            title="DWM SLA3 PPT" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="video-info">
-                        <h3>DWM SLA3 PPT</h3>
-                        <a href="https://youtu.be/yGH6F6slrSU?si=pG_hFxZGFGCZbFk3" target="_blank" class="video-link">
-                            Watch on YouTube <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2><i class="fas fa-paper-plane"></i> Let's Connect</h2>
-            <p class="contact-intro">
-                Interested in collaboration, have a project idea, or just want to chat about cybersecurity? I'm always open to connecting with fellow security enthusiasts and professionals!
-            </p>
-            <div class="contact-grid">
-                <div class="contact-card">
-                    <div class="contact-icon">
-                        <i class="fab fa-github"></i>
-                    </div>
-                    <h3>GitHub</h3>
-                    <p>See my open-source projects and contributions</p>
-                    <a href="https://github.com/Mahekmange" target="_blank" class="contact-link">@Mahekmange</a>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">
-                        <i class="fab fa-linkedin"></i>
-                    </div>
-                    <h3>LinkedIn</h3>
-                    <p>Let's connect professionally and expand our network</p>
-                    <a href="https://www.linkedin.com/in/mahek-mange" target="_blank" class="contact-link">@mahek-mange</a>
-                </div>
-                <div class="contact-card">
-                    <div class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
-                    <h3>Email</h3>
-                    <p>Send me a message for inquiries or opportunities</p>
-                    <a href="mailto:mahek.17736@sakec.ac.in" class="contact-link">mahek.17736@sakec.ac.in</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <i class="fas fa-shield-alt"></i>
-                    <span>Mahek<span class="highlight">.sec</span></span>
-                </div>
-                <p class="footer-text">Building a safer digital world, one vulnerability at a time.</p>
-                <div class="footer-social">
-                    <a href="https://github.com/Mahekmange" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/mahek-mange" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <p class="copyright">&copy; 2025 Mahek Mange. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Article Modal POPUP -->
-    <div id="article-modal" class="modal-overlay" tabindex="-1" aria-modal="true" aria-labelledby="modal-title" style="display:none;">
-        <div class="modal-content">
-            <button class="modal-close" aria-label="Close">&times;</button>
-            <h2 id="modal-title"></h2>
-            <div class="modal-body"></div>
-        </div>
+      </div>
+      <h1>
+        Hi, I’m <span class="highlight">Mahek Mange</span>
+      </h1>
+      <p class="subtitle">3rd Year Cybersecurity Engineering Student</p>
+      <p class="description">
+        Securing digital spaces through ethical hacking, vulnerability research, and a creative problem-solving mindset
+      </p>
+      <div class="cta-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-folder-open"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="fas fa-envelope"></i> Get In Touch
+        </a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/Mahekmange" target="_blank" title="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/mahek-mange"
+          target="_blank"
+          title="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
     </div>
+  </section>
 
-    <script src="script.js"></script>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2><i class="fas fa-user-circle"></i> About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a passionate cybersecurity enthusiast currently pursuing my degree in
+            <strong>Cyber Security Engineering (3rd Year)</strong>. My journey in technology started with curiosity about how systems work, which evolved into a deep interest in understanding how to protect them.
+          </p>
+          <p>
+            I specialize in <strong>penetration testing</strong>, <strong>web application security</strong>, and <strong>digital forensics</strong>. When I’m not hunting for vulnerabilities or solving CTF challenges, I’m building secure web applications and sharing knowledge through technical articles.
+          </p>
+          <p>
+            My goal is to contribute to making the digital world safer by identifying security flaws before malicious actors can exploit them. I believe in continuous learning and staying updated with the latest security trends and attack vectors.
+          </p>
+          <div class="stats">
+            <div class="stat-item">
+              <i class="fas fa-project-diagram"></i>
+              <h3>10+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-flag"></i>
+              <h3>50+</h3>
+              <p>CTF Challenges</p>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-code"></i>
+              <h3>5+</h3>
+              <p>Tools Developed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2><i class="fas fa-tools"></i> Technical Arsenal</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-bug"></i></div>
+          <h3>Offensive Security</h3>
+          <ul>
+            <li><span class="skill-name">Penetration Testing</span></li>
+            <li><span class="skill-name">Web App Security</span></li>
+            <li><span class="skill-name">Network Scanning</span></li>
+            <li><span class="skill-name">Exploitation</span></li>
+            <li><span class="skill-name">Social Engineering</span></li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Defensive Security</h3>
+          <ul>
+            <li><span class="skill-name">Incident Response</span></li>
+            <li><span class="skill-name">Threat Analysis</span></li>
+            <li><span class="skill-name">SIEM Tools</span></li>
+            <li><span class="skill-name">Malware Analysis</span></li>
+            <li><span class="skill-name">Digital Forensics</span></li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-code"></i></div>
+          <h3>Development</h3>
+          <ul>
+            <li><span class="skill-name">Python</span></li>
+            <li><span class="skill-name">JavaScript</span></li>
+            <li><span class="skill-name">Flask/Django</span></li>
+            <li><span class="skill-name">SQL</span></li>
+            <li><span class="skill-name">Bash Scripting</span></li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <div class="category-icon"><i class="fas fa-wrench"></i></div>
+          <h3>Tools & Platforms</h3>
+          <ul>
+            <li><span class="skill-name">Burp Suite</span></li>
+            <li><span class="skill-name">Metasploit</span></li>
+            <li><span class="skill-name">Nmap</span></li>
+            <li><span class="skill-name">Wireshark</span></li>
+            <li><span class="skill-name">Kali Linux</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2><i class="fas fa-laptop-code"></i> Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-qrcode"></i></div>
+          <h3>Smart Attendance System</h3>
+          <p>
+            A Flask-based web application enabling teachers to manage student attendance efficiently through unique QR codes. Features include real-time tracking, automated reports, and secure authentication.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">Flask</span> <span class="tech-tag">SQL</span>
+            <span class="tech-tag">QR Code</span> <span class="tech-tag">Python</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-flag"></i></div>
+          <h3>CyberQuest CTF Game</h3>
+          <p>
+            An interactive CTF platform that gamifies cybersecurity education. Players solve challenging puzzles covering exploitation, cryptography, and forensics.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">JavaScript</span> <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Docker</span> <span class="tech-tag">CTF</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+          <h3>Network Vulnerability Scanner</h3>
+          <p>
+            Automated Python tool for identifying common vulnerabilities in network infrastructure. Generates comprehensive reports with remediation recommendations.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span> <span class="tech-tag">Nmap</span>
+            <span class="tech-tag">Security</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-lock"></i></div>
+          <h3>Password Strength Analyzer</h3>
+          <p>
+            Advanced password tool using machine learning to assess password strength and provide security feedback.
+          </p>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span> <span class="tech-tag">ML</span>
+            <span class="tech-tag">Flask</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- ... everything above stays the same ... -->
+
+<!-- Videos Section with Collapsible Subject Panels -->
+<section id="videos" class="videos">
+    <div class="container">
+      <h2><i class="fas fa-video"></i> Videos</h2>
+
+      <!-- Data Warehouse and Mining Videos -->
+      <h3 class="video-subject-heading">Data Warehouse and Mining</h3>
+      <div class="videos-grid">
+        <div class="video-card">
+          <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/GbxFKsj1Z0g?si=XVVm3U_afEx9zVr-"
+              title="DWM SLA2 PPT - ETL Process" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="video-info">
+            <h3>DWM SLA2 PPT - ETL Process</h3>
+            <a href="https://youtu.be/GbxFKsj1Z0g?si=XVVm3U_afEx9zVr-" target="_blank" class="video-link">
+              <i class="fab fa-youtube"></i> Watch on YouTube
+            </a>
+            <div class="video-rawlink">https://youtu.be/GbxFKsj1Z0g?si=XVVm3U_afEx9zVr-</div>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-responsive">
+            <iframe src="https://www.youtube.com/embed/yGH6F6slrSU?si=pG_hFxZGFGCZbFk3"
+              title="DWM SLA3 PPT" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="video-info">
+            <h3>DWM SLA3 PPT</h3>
+            <a href="https://youtu.be/yGH6F6slrSU?si=pG_hFxZGFGCZbFk3" target="_blank" class="video-link">
+              <i class="fab fa-youtube"></i> Watch on YouTube
+            </a>
+            <div class="video-rawlink">https://youtu.be/yGH6F6slrSU?si=pG_hFxZGFGCZbFk3</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cyber Crime Investigation & Digital Forensics Videos -->
+      <h3 class="video-subject-heading">Cyber Crime Investigation & Digital Forensics</h3>
+<div class="videos-grid">
+
+  <div class="video-card">
+    <div class="video-responsive">
+      <iframe 
+        src="https://www.youtube.com/embed/VrNpHuh1CFs?si=JRT16GoQkAcxaCGK"
+        title="Cyber Crime - SLA Stage 2" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-info">
+      <h3>Cyber Crime Investigation - SLA Stage 2</h3>
+      <a href="https://youtu.be/VrNpHuh1CFs?si=JRT16GoQkAcxaCGK" target="_blank" class="video-link">
+        <i class="fab fa-youtube"></i> Watch on YouTube
+      </a>
+      <div class="video-rawlink">
+        https://youtu.be/VrNpHuh1CFs?si=JRT16GoQkAcxaCGK
+      </div>
+    </div>
+  </div>
+
+  <div class="video-card">
+    <div class="video-responsive">
+      <iframe 
+        src="https://www.youtube.com/embed/kjWuPfchas4?si=M96_yIBwdObiypV9"
+        title="Cyber Crime - SLA Stage 3" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-info">
+      <h3>Cyber Crime Investigation - SLA Stage 3</h3>
+      <a href="https://youtu.be/kjWuPfchas4?si=M96_yIBwdObiypV9" target="_blank" class="video-link">
+        <i class="fab fa-youtube"></i> Watch on YouTube
+      </a>
+      <div class="video-rawlink">
+        https://youtu.be/kjWuPfchas4?si=M96_yIBwdObiypV9
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Theory of Computation Videos -->
+      <h3 class="video-subject-heading">Theory of Computation & Compiler Design</h3>
+<div class="videos-grid">
+
+  <div class="video-card">
+    <div class="video-responsive">
+      <iframe 
+        src="https://www.youtube.com/embed/C3ZntBD7498?si=dNkxE-QxtJ46aO1d"
+        title="TC&CD SLA Stage 2 ppt" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-info">
+      <h3>TC&CD - SLA Stage 2</h3>
+      <a href="https://youtu.be/C3ZntBD7498?si=dNkxE-QxtJ46aO1d" target="_blank" class="video-link">
+        <i class="fab fa-youtube"></i> Watch on YouTube
+      </a>
+      <div class="video-rawlink">
+        https://youtu.be/C3ZntBD7498?si=dNkxE-QxtJ46aO1d
+      </div>
+    </div>
+  </div>
+
+  <div class="video-card">
+    <div class="video-responsive">
+      <iframe 
+        src="https://www.youtube.com/embed/SNKHbZa8cps?si=D7EQiz12NCoZLQu9"
+        title="TC&CD- SLA Stage 3" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-info">
+      <h3>TC&CD - SLA Stage 3</h3>
+      <a href="https://youtu.be/SNKHbZa8cps?si=D7EQiz12NCoZLQu9" target="_blank" class="video-link">
+        <i class="fab fa-youtube"></i> Watch on YouTube
+      </a>
+      <div class="video-rawlink">
+        https://youtu.be/SNKHbZa8cps?si=D7EQiz12NCoZLQu9
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Cybersecurity Principles Videos -->
+      <h3 class="video-subject-heading">Cybersecurity Principles & Practices</h3>
+<div class="videos-grid">
+
+  <div class="video-card">
+    <div class="video-responsive">
+      <iframe 
+        src="https://www.youtube.com/embed/RJL2EUZIykI?si=I6RIMtX4E60zsKbs"
+        title="Cybersecurity Principles - SLA Stage 2" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-info">
+      <h3>Cybersecurity Principles - SLA Stage 2</h3>
+      <a href="https://youtu.be/RJL2EUZIykI?si=I6RIMtX4E60zsKbs" target="_blank" class="video-link">
+        <i class="fab fa-youtube"></i> Watch on YouTube
+      </a>
+      <div class="video-rawlink">
+        https://youtu.be/RJL2EUZIykI?si=I6RIMtX4E60zsKbs
+      </div>
+    </div>
+  </div>
+
+  <div class="video-card">
+    <div class="video-responsive">
+      <iframe 
+        src="https://www.youtube.com/embed/fcgKDffQ_Dw?si=NGUyUDvqtpluzvtF"
+        title="Cybersecurity Principles - SLA Stage 3" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video-info">
+      <h3>Cybersecurity Principles - SLA Stage 3</h3>
+      <a href="https://youtu.be/fcgKDffQ_Dw?si=NGUyUDvqtpluzvtF" target="_blank" class="video-link">
+        <i class="fab fa-youtube"></i> Watch on YouTube
+      </a>
+      <div class="video-rawlink">
+        https://youtu.be/fcgKDffQ_Dw?si=NGUyUDvqtpluzvtF
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Software Engineering Videos -->
+      <h3 class="video-subject-heading">Software Engineering & Project Management</h3>
+      <div class="videos-grid">
+        <p style="color:#8b8;">No videos uploaded yet.</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Articles Section with subject subsections -->
+  <section id="articles" class="articles">
+    <div class="container">
+      <h2><i class="fas fa-pen-nib"></i> Articles</h2>
+      <div class="articles-grid">
+        
+        <!-- Data Warehouse and Mining Article -->
+        <article class="article-card" tabindex="0" data-article="etl">
+          <div class="article-header">
+            <i class="fas fa-database"></i>
+            <span class="article-category subject-dwm main-subject-pill">Data Warehouse and Mining</span>
+          </div>
+          <h3>The ETL Process: A Deep Dive into Modern Data Integration</h3>
+          <p>Discover how the ETL (Extract, Transform, Load) process transforms raw data into reliable, actionable analytics for modern businesses.</p>
+          <div class="article-meta">
+            <span><i class="far fa-calendar"></i> Oct 2025</span>
+            <span><i class="far fa-clock"></i> 8 min read</span>
+          </div>
+          <a href="#" class="read-more" data-article="etl">Read Article <i class="fas fa-arrow-right"></i></a>
+        </article>
+  
+        <!-- Cyber Crime Investigation & Digital Forensics Article -->
+        <article class="article-card" tabindex="0" data-article="ai-cybercrime">
+          <div class="article-header">
+            <i class="fas fa-user-secret"></i>
+            <span class="article-category subject-cybercrime main-subject-pill">Cyber Crime Investigation & Digital Forensics</span>
+          </div>
+          <h3>Role of Artificial Intelligence in Cyber Crime Investigation</h3>
+          <p>How AI is revolutionizing digital forensics and accelerating cybercrime investigations in the modern era.</p>
+          <div class="article-meta">
+            <span><i class="far fa-calendar"></i> Oct 2025</span>
+            <span><i class="far fa-clock"></i> 8 min read</span>
+          </div>
+          <a href="#" class="read-more" data-article="ai-cybercrime">Read Article <i class="fas fa-arrow-right"></i></a>
+        </article>
+  
+        <!-- Theory of Computation & Compiler Design Article -->
+        <article class="article-card" tabindex="0" data-article="fa-text-search">
+          <div class="article-header">
+            <i class="fas fa-cogs"></i>
+            <span class="article-category subject-theory main-subject-pill">Theory of Computation & Compiler Design</span>
+          </div>
+          <h3>Applications of Finite Automata in Text Search and Pattern Matching</h3>
+          <p>Explore how finite automata make text processing, pattern matching, and compiler design more efficient and robust.</p>
+          <div class="article-meta">
+            <span><i class="far fa-calendar"></i> Oct 2025</span>
+            <span><i class="far fa-clock"></i> 7 min read</span>
+          </div>
+          <a href="#" class="read-more" data-article="fa-text-search">Read Article <i class="fas fa-arrow-right"></i></a>
+        </article>
+  
+        <!-- Cybersecurity Principles & Practices Article -->
+        <article class="article-card" tabindex="0" data-article="ai-cybersecurity">
+          <div class="article-header">
+            <i class="fas fa-shield-alt"></i>
+            <span class="article-category subject-cyber main-subject-pill">Cybersecurity Principles & Practices</span>
+          </div>
+          <h3>Applications of Artificial Intelligence (AI) in Cyber Security</h3>
+          <p>Discover how AI technologies are transforming cybersecurity defense, detection, and incident response.</p>
+          <div class="article-meta">
+            <span><i class="far fa-calendar"></i> Oct 2025</span>
+            <span><i class="far fa-clock"></i> 8 min read</span>
+          </div>
+          <a href="#" class="read-more" data-article="ai-cybersecurity">Read Article <i class="fas fa-arrow-right"></i></a>
+        </article>
+  
+        <!-- Software Engineering & Project Management Article -->
+        <article class="article-card" tabindex="0" data-article="ooad">
+          <div class="article-header">
+            <i class="fas fa-diagram-project"></i>
+            <span class="article-category subject-sepm main-subject-pill">Software Engineering & Project Management</span>
+          </div>
+          <h3>Object-Oriented Analysis and Design (OOAD): A Modern Approach to Software Development</h3>
+          <p>Uncover the power of OOAD principles in building robust, reusable, and efficient software systems.</p>
+          <div class="article-meta">
+            <span><i class="far fa-calendar"></i> Oct 2025</span>
+            <span><i class="far fa-clock"></i> 7 min read</span>
+          </div>
+          <a href="#" class="read-more" data-article="ooad">Read Article <i class="fas fa-arrow-right"></i></a>
+        </article>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2><i class="fas fa-paper-plane"></i> Let's Connect</h2>
+      <p class="contact-intro">
+        Interested in collaboration, have a project idea, or just want to chat about cybersecurity? I'm always open to connecting with fellow security enthusiasts and professionals!
+      </p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fab fa-github"></i></div>
+          <h3>GitHub</h3>
+          <p>See my open-source projects and contributions</p>
+          <a href="https://github.com/Mahekmange" target="_blank" class="contact-link">@Mahekmange</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+          <h3>LinkedIn</h3>
+          <p>Let's connect professionally and expand our network</p>
+          <a href="https://www.linkedin.com/in/mahek-mange" target="_blank" class="contact-link">@mahek-mange</a>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <h3>Email</h3>
+          <p>Send me a message for inquiries or opportunities</p>
+          <a href="mailto:mahek.17736@sakec.ac.in" class="contact-link">mahek.17736@sakec.ac.in</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <i class="fas fa-shield-alt"></i>
+          <span>Mahek<span class="highlight">.sec</span></span>
+        </div>
+        <p class="footer-text">Building a safer digital world, one vulnerability at a time.</p>
+        <div class="footer-social">
+          <a href="https://github.com/Mahekmange" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/mahek-mange" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="copyright">© 2025 Mahek Mange. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Article Modal POPUP -->
+  <div
+    id="article-modal"
+    class="modal-overlay"
+    tabindex="-1"
+    aria-modal="true"
+    aria-labelledby="modal-title"
+    style="display: none"
+  >
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h2 id="modal-title"></h2>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <!-- Article Modal Curtain Popup -->
+<div id="article-modal" class="modal-overlay" tabindex="-1" aria-modal="true" aria-labelledby="modal-title" style="display:none;">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <h2 id="modal-title"></h2>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+  
 </body>
 </html>
