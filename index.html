@@ -413,8 +413,8 @@
     <div class="container">
       <h2><i class="fas fa-pen-nib"></i> Articles</h2>
       <div class="articles-grid">
-        
-        <!-- Data Warehouse and Mining Article -->
+  
+        <!-- Existing articles below (unchanged) -->
         <article class="article-card" tabindex="0" data-article="etl">
           <div class="article-header">
             <i class="fas fa-database"></i>
@@ -429,7 +429,6 @@
           <a href="#" class="read-more" data-article="etl">Read Article <i class="fas fa-arrow-right"></i></a>
         </article>
   
-        <!-- Cyber Crime Investigation & Digital Forensics Article -->
         <article class="article-card" tabindex="0" data-article="ai-cybercrime">
           <div class="article-header">
             <i class="fas fa-user-secret"></i>
@@ -444,7 +443,6 @@
           <a href="#" class="read-more" data-article="ai-cybercrime">Read Article <i class="fas fa-arrow-right"></i></a>
         </article>
   
-        <!-- Theory of Computation & Compiler Design Article -->
         <article class="article-card" tabindex="0" data-article="fa-text-search">
           <div class="article-header">
             <i class="fas fa-cogs"></i>
@@ -459,7 +457,6 @@
           <a href="#" class="read-more" data-article="fa-text-search">Read Article <i class="fas fa-arrow-right"></i></a>
         </article>
   
-        <!-- Cybersecurity Principles & Practices Article -->
         <article class="article-card" tabindex="0" data-article="ai-cybersecurity">
           <div class="article-header">
             <i class="fas fa-shield-alt"></i>
@@ -474,7 +471,6 @@
           <a href="#" class="read-more" data-article="ai-cybersecurity">Read Article <i class="fas fa-arrow-right"></i></a>
         </article>
   
-        <!-- Software Engineering & Project Management Article -->
         <article class="article-card" tabindex="0" data-article="ooad">
           <div class="article-header">
             <i class="fas fa-diagram-project"></i>
@@ -488,9 +484,30 @@
           </div>
           <a href="#" class="read-more" data-article="ooad">Read Article <i class="fas fa-arrow-right"></i></a>
         </article>
+  
+        <!-- NEW Vedic Maths Article -->
+        <article class="article-card" tabindex="0" data-article="vedic-maths">
+          <div class="article-header">
+            <i class="fas fa-calculator"></i>
+            <span class="article-category" style="background:rgba(255,91,0,0.10); color:#ff5b00; font-weight:700;">
+              Vedic Maths - BLOG
+            </span>
+          </div>
+          <h3>The Indian Origins of Trigonometry: From Jya and Kojya to Modern Sine and Cosine</h3>
+          <p>
+            Discover how ancient Indian mathematicians pioneered the concept of trigonometric functions, blending science, spirituality, and daily life. From the Sulbha Sutras and Aryabhata to Madhava’s infinite series, learn why the roots and words of sine and cosine are truly Bharatiya (Indian).
+          </p>
+          <div class="article-meta">
+            <span><i class="far fa-calendar"></i> Oct 2025</span>
+            <span><i class="far fa-clock"></i> 8 min read</span>
+          </div>
+          <a href="#" class="read-more" data-article="vedic-maths">Read Article <i class="fas fa-arrow-right"></i></a>
+        </article>
+  
       </div>
     </div>
   </section>
+  
   
   
   
@@ -543,31 +560,19 @@
     </div>
   </footer>
 
-  <!-- Article Modal POPUP -->
-  <div
-    id="article-modal"
-    class="modal-overlay"
-    tabindex="-1"
-    aria-modal="true"
-    aria-labelledby="modal-title"
-    style="display: none"
-  >
-    <div class="modal-content">
-      <button class="modal-close" aria-label="Close">&times;</button>
-      <h2 id="modal-title"></h2>
-      <div class="modal-body"></div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-  <!-- Article Modal Curtain Popup -->
+  <!-- Article Modal POPUP - only one instance -->
 <div id="article-modal" class="modal-overlay" tabindex="-1" aria-modal="true" aria-labelledby="modal-title" style="display:none;">
-    <div class="modal-content">
-      <button class="modal-close" aria-label="Close">&times;</button>
-      <h2 id="modal-title"></h2>
-      <div class="modal-body"></div>
-    </div>
+  <div class="modal-content">
+    <button class="modal-close" aria-label="Close">&times;</button>
+    <h2 id="modal-title"></h2>
+    <div class="modal-body"></div>
   </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
   
 </body>
 </html>
