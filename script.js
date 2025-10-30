@@ -372,7 +372,78 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   <strong>Conclusion</strong><br>
   OOAD bridges requirements and technical design, enabling robust, scalable, and maintainable systems—essential for CS education and the modern IT industry.
   `
-    }
+    },
+    
+   'vedic-maths': {
+  title: "The Indian Origins of Trigonometry: From Jya and Kojya to Modern Sine and Cosine",
+  content: `
+  <strong>🧭 The Indian Origins of Trigonometry: From Jya and Kojya to Modern Sine and Cosine</strong><br><br>
+  <strong>🌅 Introduction</strong><br>
+  Trigonometry is the mathematical study of the relationships between the sides and angles of triangles. It forms the backbone of many modern applications such as navigation, architecture, astronomy, and engineering. However, few people realize that the roots of trigonometry stretch deep into ancient Indian civilization, long before Greek or European mathematics evolved.
+  <br>
+  Indian scholars like Aryabhata, Bhaskara, and Madhava laid the foundation of what we now call trigonometric ratios and functions, using ancient Sanskrit terms such as Jya (sine) and Kojya (cosine). The development of trigonometry in ancient India shows not only the mathematical brilliance of our ancestors but also their ability to connect science, spirituality, and daily life.
+  <br><br>
+  <strong>📜 Geometry and Trigonometry in Ancient Bharat</strong><br>
+  The Sulbha Sutras (around 800 BCE), part of the Vedic texts, are among the earliest known records of geometry and trigonometry. These sutras were written by scholars like Baudhayana, Apastamba, and Katyayana.<br>
+  They described how to construct Vedic altars (yajna vedis) of different shapes — square, circular, or rectangular — using precise geometric and trigonometric principles.<br>
+  One remarkable discovery in the Sulbha Sutras is a statement equivalent to the Pythagoras theorem, written centuries before Pythagoras himself. It says:<br>
+  <em>The diagonal of a rectangle produces both areas which the two sides produce separately.</em><br>
+  This clearly represents the formula:<br>
+  <span style="background:#181a2a;border-radius:4px;padding:2px 7px;display:inline-block;"><strong>a² + b² = c²</strong></span><br>
+  Such geometric understanding later evolved into the early forms of trigonometric thinking.<br><br>
+  <strong>📘 Evolution of Jya and Kojya</strong><br>
+  Around 500 CE, the Indian mathematician and astronomer Aryabhata introduced the concepts of Jya (sine) and Kojya (cosine) in his text Aryabhatiya.<br>
+  He used these to calculate distances and angles of celestial bodies. Jya (Sine): It represents the half-chord of a circle corresponding to a certain angle. Kojya (Cosine): It is the sine of the complementary angle (90° − θ).<br>
+  Aryabhata prepared detailed sine tables for every 3.75° interval — a pioneering work in mathematical computation.<br>
+  Later, mathematicians such as Bhaskara I (7th century) and Bhaskara II (12th century) refined these calculations and developed new relations between trigonometric functions.<br><br>
+  <strong>🧮 Madhava and the Infinite Series</strong><br>
+  Centuries later, Madhava of Sangamagrama (14th century) from the Kerala School of Mathematics made revolutionary discoveries.<br>
+  He was the first mathematician in the world to define infinite series expansions for sine, cosine, and tangent functions — almost 250 years before Newton and Leibniz developed calculus.<br>
+  Madhava’s series for sine is represented as:<br>
+  <span style="background:#181a2a;border-radius:4px;padding:2px 7px;display:inline-block;">
+    <strong>
+      sin x = x - x³/3! + x⁵/5! - x⁷/7! + ...
+    </strong>
+  </span><br>
+  This is the same formula taught in modern trigonometry today!<br>
+  His school continued developing trigonometric tables with high accuracy for astronomical calculations.<br><br>
+  <strong>🛕 Applications of Trigonometry in Ancient India</strong><br>
+  Trigonometry was not a purely academic subject in ancient India — it was a practical science applied in various fields:
+  <br>
+  <strong>Astronomy:</strong> Indian astronomers used Jya and Kojya to predict solar and lunar eclipses, planetary positions, and the length of days. Works like Surya Siddhanta used these principles to compute celestial orbits.<br>
+  <strong>Architecture and Temple Design:</strong> Geometric concepts were used to design temple towers, pillars, and domes.<br>
+  <strong>Navigation and Calendar Making:</strong> Ancient navigators and timekeepers used trigonometric methods to measure distances, directions, and seasonal cycles.<br>
+  These applications show how mathematics was deeply interwoven with Indian culture, religion, and science.<br><br>
+  <strong>🌍 Journey of Indian Trigonometry to the World</strong><br>
+  When Indian works like Aryabhatiya and Surya Siddhanta were translated into Arabic during the Islamic Golden Age, the Sanskrit word “Jya” was translated to “jiba”.<br>
+  Later, this became “jaib”, which in Latin meant fold or curve — translated by European scholars as “sinus”, giving rise to the modern term “sine”.<br>
+  Similarly, the complementary function Kojya became cosine.<br><br>
+  <strong>🪔 Legacy and Importance</strong><br>
+  The trigonometric work done by Indian scholars represents one of the earliest and most advanced mathematical traditions in the world. Their research laid the foundation for future developments in:
+  <ul>
+    <li>Astronomy and space science</li>
+    <li>Navigation and mapping</li>
+    <li>Architecture and engineering</li>
+    <li>Modern trigonometric computation</li>
+  </ul>
+  Even today, the Indian approach to mathematics — blending logic, creativity, and spirituality — continues to inspire learners and researchers globally.<br><br>
+  <strong>💡 Conclusion</strong><br>
+  The journey from Jya and Kojya to Sine and Cosine is a story of intellectual brilliance and cultural pride.<br>
+  It shows how Indian scholars centuries ago understood the patterns of nature through mathematical reasoning.<br>
+  Their discoveries prove that India was not just a follower, but a pioneer of mathematical thought.<br>
+  Recognizing their work helps us appreciate how ancient wisdom shaped modern science — and reminds us that the roots of trigonometry are truly Bharatiya (Indian).<br><br>
+  <strong>✨ Summary</strong><br>
+  <ul>
+    <li>Trigonometry in India began with Sulbha Sutras for altar construction.</li>
+    <li>Aryabhata introduced Jya (sine) and Kojya (cosine) for astronomy.</li>
+    <li>Bhaskara and Madhava refined these concepts and created trigonometric series.</li>
+    <li>These ideas later reached Europe through Arabic translations.</li>
+    <li>Ancient Indian trigonometry influenced modern math, science, and architecture.</li>
+  </ul>
+  `
+}
+
+    
   };
   
   const modal = document.getElementById('article-modal');
