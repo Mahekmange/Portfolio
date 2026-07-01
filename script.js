@@ -441,8 +441,53 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     <li>Ancient Indian trigonometry influenced modern math, science, and architecture.</li>
   </ul>
   `
-}
+},
 
+'serverless': {
+  title: "Serverless Computing in Cloud Infrastructure",
+  content: `
+  <strong>Introduction</strong><br>
+  Cloud computing has changed how organizations build and manage applications. One of the most popular innovations in cloud infrastructure is Serverless Computing. Despite its name, serverless computing does not mean that servers do not exist. Instead, the cloud service provider manages the servers, allowing developers to focus only on writing and deploying their applications.<br><br>
+
+  <strong>What is Serverless Computing?</strong><br>
+  Serverless computing is a cloud model where the cloud provider automatically manages servers, OS, scaling, and maintenance. Developers only write application code; the platform handles execution and resource management. Applications run on demand and are billed for actual computing time, making serverless cost-effective and flexible.<br><br>
+
+  <strong>Popular platforms</strong>: AWS Lambda, Microsoft Azure Functions, Google Cloud Functions.<br><br>
+
+  <strong>How Serverless Computing Works</strong><br>
+  An event triggers the execution of a function (file upload, API request, scheduled job). The provider allocates resources, runs the function, then releases resources when done — all automatically.<br><br>
+
+  <strong>Key Features</strong><br>
+  <ol>
+    <li><strong>Automatic Scaling:</strong> Resources scale with demand.</li>
+    <li><strong>Pay-as-You-Go:</strong> Billing only for execution time.</li>
+    <li><strong>Reduced Infrastructure Management:</strong> No server admin required.</li>
+    <li><strong>Faster Development:</strong> Focus on business logic.</li>
+    <li><strong>High Availability:</strong> Built-in provider reliability.</li>
+  </ol>
+
+  <strong>Real-Life Applications</strong><br>
+  E-commerce (order processing), Healthcare (appointment handling), Finance (transaction processing), Media (image/video processing), IoT (sensor data), Education (quiz handling).<br><br>
+
+  <strong>Advantages</strong><br>
+  Lower operational costs, automatic scaling, faster development, no server maintenance, better resource utilization, easy integration with other cloud services.<br><br>
+
+  <strong>Limitations</strong><br>
+  Cold start delays, vendor lock-in, execution time limits, and more complex debugging/monitoring.<br><br>
+
+  <strong>Importance</strong><br>
+  Serverless enables faster delivery of scalable, reliable services with lower infrastructure overhead; widely adopted by startups and enterprises alike.<br><br>
+
+  <strong>Conclusion</strong><br>
+  Serverless computing simplifies deployments and reduces operational overhead. Although not a perfect fit for every workload, it continues to play a major role in modern cloud infrastructure.<br><br>
+
+  <!-- Inline images inside the article content (these will show inside the modal) -->
+  <div style="margin-top:14px;">
+    <img src="assets/serverless-thumb.png" alt="Serverless illustration" style="width:100%;border-radius:8px;margin-bottom:8px;">
+    <img src="assets/serverless-demo.gif" alt="Serverless demo gif" style="width:100%;border-radius:8px;">
+  </div>
+  `
+}
     
   };
   
@@ -497,4 +542,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     modal.classList.remove('active');
     setTimeout(() => { modal.style.display = "none"; }, 330);
   }
-  
